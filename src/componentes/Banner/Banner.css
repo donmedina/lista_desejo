@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    background-color: #fac045;
+    text-align: center;
+}
+
+.banner img{
+    max-width: 100%;
+}
