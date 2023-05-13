@@ -6,7 +6,8 @@ export const ListaSuspensa = (props) =>{
             <label>
                 {props.label}
             </label>
-            <select>
+            <select onChange={e=>props.aoAlterado(e.target.value)} required={props.obrigatorio} value={props.valor}>
+                <option value=''></option>
                 {props.plataforma.map(plataforma => {
                     return <option key={plataforma}>{plataforma}</option>
                 })}

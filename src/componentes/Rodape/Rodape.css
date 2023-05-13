@@ -1,0 +1,15 @@
+.rodape{
+    background-color: #C38E00;
+    width: 100%;
+    height: 174px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    
+}
+
+.rodape img{
+    justify-content: space-between;
+    padding: 16px;
+    margin: 32px 0 32px;
+}

@@ -1,8 +1,8 @@
 import './Button.css'
-import '../../bootsrap/bootstrap.css'
 
-export const Button = () => {
+
+export const Button = (props) => {
     return (
-        <button className='btn btn-primary'>Criar Card</button>
+        <button className='btn btn-warning' >{props.children}</button>
     )
 }

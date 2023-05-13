@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     margin: 80px 0;
-  
+    align-content: center;
+    
 }
 
 .formulario form{
@@ -11,4 +12,19 @@
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     padding: 36px 64px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    
+}
+.cabecalho h3{
+    font-size: 32px;
+    border-bottom: solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    color: blueviolet;
 }
