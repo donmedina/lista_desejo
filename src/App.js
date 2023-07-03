@@ -30,13 +30,13 @@ function App() {
       nome: 'Netflix',
       corPrimaria: 'rgba(255, 0, 0, 0.5)',
       corSecundaria: 'AB0000',
-      imagemFundo: 'url(/imagens/netflix.png)'
+      imagemFundo: 'url(/imagens/netflix.jpg)'
     },
     {
       nome: 'Prime Video',
       corPrimaria: 'rgba(41, 78, 152, 0.5)',
       corSecundaria: '#003AAB',
-      imagemFundo: 'url(/imagens/prime.png)'
+      imagemFundo: 'url(/imagens/prime.jpg)'
     },
     {
       nome: 'Star +',
